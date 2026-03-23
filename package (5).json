@@ -1,0 +1,17 @@
+{
+  "name": "group-member-tracker-bot",
+  "version": "1.0.0",
+  "description": "Guruhga kim qancha odam qo'shganini kuzatuvchi Telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "better-sqlite3": "^9.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
